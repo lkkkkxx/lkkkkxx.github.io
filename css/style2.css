@@ -1,0 +1,37 @@
+/* 设置整个页面的高度为100%以确保布局充满屏幕 */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置头部的样式，可以根据需要进行自定义 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 设置中间内容区域的样式，可以根据需要进行自定义 */
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 设置底部的样式，可以根据需要进行自定义 */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 使用Flex布局来实现上中下布局 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
