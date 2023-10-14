@@ -195,9 +195,14 @@ display: block;
     width: 690px;
     height: 458px;
     background-color: green;
+    cursor: pointer;
     margin: 0 10px;
 }
 
+.main-content .banner:hover{
+    box-shadow: 0 0 10px black;
+    transition: 0.4s all linear;
+}
 
 
 
@@ -571,6 +576,8 @@ text-align: center;
     margin-top: 10px;
 }
 .aside-container .item:hover{
-background-color: #f4f4f4
+background-color: #f4f4f4;
+box-shadow: 0 0 10px black;
+transition: 0.4s all linear;
 }
  /* #endregion的aside固定定位侧边栏 */
